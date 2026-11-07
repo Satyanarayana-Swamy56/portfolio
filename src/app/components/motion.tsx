@@ -1,6 +1,7 @@
 import { motion, useInView, useMotionValue, useScroll, useSpring, useTransform } from 'motion/react'
 import { useRef, type ReactNode } from 'react'
 
+import { asset } from '../lib/asset'
 import { cx } from '../lib/cx'
 
 const ease = [0.22, 1, 0.36, 1] as const
@@ -47,7 +48,7 @@ export function Parallax({ src, alt, className, strength = 8 }: { src: string; a
   const y = useTransform(scrollYProgress, [0, 1], [`-${strength}%`, `${strength}%`])
   return (
     <div ref={ref} className={cx('image-frame relative', className)}>
-      <motion.img src={src} alt={alt} style={{ y }} className="absolute inset-0 size-full scale-[1.12] object-cover" loading="lazy" />
+      <motion.img src={asset(src)} alt={alt} style={{ y }} className="absolute inset-0 size-full scale-[1.12] object-cover" loading="lazy" />
     </div>
   )
 }

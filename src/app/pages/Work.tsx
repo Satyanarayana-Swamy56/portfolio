@@ -3,6 +3,7 @@ import { motion } from 'motion/react'
 import { Link, Navigate, useParams } from 'react-router'
 
 import { bySlug, projects } from '../../data/site'
+import { asset } from '../lib/asset'
 import { Lines, Parallax, Reveal } from '../components/motion'
 
 const ease = [0.22, 1, 0.36, 1] as const
@@ -84,12 +85,12 @@ export function Work() {
       <div className="mt-16 grid gap-6 md:grid-cols-2">
         <Reveal>
           <div className="image-frame aspect-[4/3] rounded-image" style={{ background: project.tint }}>
-            <img src={project.cover} alt="" className="size-full object-cover" style={{ transform: 'scale(1.6)', transformOrigin: '30% 40%' }} />
+            <img src={asset(project.cover)} alt="" className="size-full object-cover" style={{ transform: 'scale(1.6)', transformOrigin: '30% 40%' }} />
           </div>
         </Reveal>
         <Reveal delay={0.1}>
           <div className="image-frame aspect-[4/3] rounded-image" style={{ background: project.tint }}>
-            <img src={project.cover} alt="" className="size-full object-cover" style={{ transform: 'scale(2.2)', transformOrigin: '70% 65%' }} />
+            <img src={asset(project.cover)} alt="" className="size-full object-cover" style={{ transform: 'scale(2.2)', transformOrigin: '70% 65%' }} />
           </div>
         </Reveal>
       </div>
@@ -99,7 +100,7 @@ export function Work() {
         <div className="mt-3 flex items-end justify-between gap-6">
           <h2 className="font-display text-[clamp(44px,8vw,120px)] transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-x-3">{next.title}</h2>
           <span className="image-frame hidden aspect-[4/3] w-[260px] shrink-0 rounded-[20px] sm:block" style={{ background: next.tint }}>
-            <img src={next.cover} alt="" className="size-full object-cover transition-transform duration-700 group-hover:scale-105" />
+            <img src={asset(next.cover)} alt="" className="size-full object-cover transition-transform duration-700 group-hover:scale-105" />
           </span>
         </div>
       </Link>
