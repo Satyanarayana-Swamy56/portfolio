@@ -13,11 +13,11 @@ export const site = {
   available: 'Open to frontend internships and junior roles',
   intro:
     'B.Tech Computer Science (AI & Data Science) student and frontend developer. I build clean, mobile-first interfaces with HTML, CSS, JavaScript and Bootstrap 5, and I care about how they behave at 320px as much as at 1440px.',
-  github: 'https://github.com/Trendyswamy2002',
-  linkedin: 'https://www.linkedin.com/in/satya-swamy',
+  github: 'https://github.com/Satyanarayana-Swamy56',
+  linkedin: 'https://www.linkedin.com/in/satyanaryanaswamy',
   socials: [
-    { label: 'GitHub', href: 'https://github.com/Trendyswamy2002' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/satya-swamy' },
+    { label: 'GitHub', href: 'https://github.com/Satyanarayana-Swamy56' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/satyanaryanaswamy' },
     { label: 'Email', href: 'mailto:trendyswamy2002@gmail.com' },
   ],
   marquee: [
@@ -63,6 +63,7 @@ export const projects: Project[] = [
     role: ['Frontend', 'Responsive layout', 'UI components'],
     stack: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript'],
     deliverables: ['Landing and menu pages', 'Reusable cards and nav', 'Responsive grid', 'Cross-browser pass'],
+    link: 'https://satyanarayana-swamy56.github.io/food-web/',
     body: [
       'FreshFetch is a food delivery front end built around one constraint: most people will open it on a phone, standing up, deciding what to eat. Every layout starts as a single column and only gains columns when there is room.',
       'I designed a small set of reusable pieces — the restaurant card, the category rail, the basket summary — so new menu sections can be added without writing new CSS. Spacing, type sizes and image ratios come from the same scale on every page.',
@@ -83,6 +84,7 @@ export const projects: Project[] = [
     role: ['Frontend', 'Layout system', 'Visual polish'],
     stack: ['HTML5', 'CSS3', 'Bootstrap 5'],
     deliverables: ['Category pages', 'Product grid', 'Lookbook sections', 'Responsive QA'],
+    link: 'https://satyanarayana-swamy56.github.io/Boutique-E-Commerce/',
     body: [
       'ChicStyle needed to show a growing catalogue without looking crowded. The page is built around a category-first structure: one clear entry point per collection, then a grid that stays calm as products are added.',
       'I used responsive grids with consistent image ratios and a restrained type scale, so a product card looks the same whether it sits in a two-column phone layout or a four-column desktop one. Layout stability was checked at several resolutions to stop images pushing content around as they load.',
@@ -103,6 +105,7 @@ export const projects: Project[] = [
     role: ['Design', 'Frontend', 'Deployment'],
     stack: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
     deliverables: ['Design tokens', 'Custom motion', 'Accessibility pass', 'GitHub Pages deploy'],
+    link: 'https://satyanarayana-swamy56.github.io/portfolio/',
     body: [
       'I wanted a portfolio that reads like a well-set page rather than a template: one typeface with character, one accent colour, and a lot of whitespace doing the work. All of the content lives in a single data file, so the site can grow without touching layout code.',
       'The animation is intentionally small — lines rising into place, a slow drift of colour behind the hero, images that move a little slower than the page. Everything switches off when the visitor prefers reduced motion, and the whole thing is keyboard navigable.',
