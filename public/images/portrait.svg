@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200" role="img" aria-label="Monogram card for Dangeti Satyanarayana Swamy">
+  <defs>
+    <linearGradient id="pgGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f3bff" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#ff6a3d" stop-opacity="0.32" />
+    </linearGradient>
+    <filter id="pgBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="80" />
+    </filter>
+    <style>
+      text { font-family: 'Bricolage Grotesque', 'Inter', 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="900" height="1200" fill="#141311" />
+  <circle cx="780" cy="180" r="260" fill="url(#pgGlow)" filter="url(#pgBlur)" />
+  <circle cx="120" cy="1080" r="240" fill="url(#pgGlow)" filter="url(#pgBlur)" opacity="0.7" />
+
+  <g stroke="#f2efe9" stroke-opacity="0.09" stroke-width="1">
+    <path d="M0 300 H900" />
+    <path d="M0 600 H900" />
+    <path d="M0 900 H900" />
+    <path d="M300 0 V1200" />
+    <path d="M600 0 V1200" />
+  </g>
+
+  <text x="70" y="150" font-size="22" letter-spacing="7" fill="#f2efe9" fill-opacity="0.55">FRONTEND DEVELOPER</text>
+
+  <text x="52" y="640" font-size="440" font-weight="600" fill="#f2efe9" letter-spacing="-18">SS</text>
+
+  <circle cx="716" cy="470" r="16" fill="#2f3bff" />
+  <circle cx="716" cy="470" r="40" fill="none" stroke="#2f3bff" stroke-opacity="0.4" stroke-width="2" />
+
+  <g fill="#f2efe9">
+    <text x="72" y="900" font-size="34" letter-spacing="2" fill-opacity="0.5">DANGETI</text>
+    <text x="72" y="954" font-size="52" font-weight="600">Satyanarayana</text>
+    <text x="72" y="1014" font-size="52" font-weight="600">Swamy</text>
+  </g>
+
+  <rect x="72" y="1058" width="120" height="2" fill="#ff6a3d" />
+
+  <text x="72" y="1100" font-size="22" fill="#f2efe9" fill-opacity="0.65">B.Tech CSE · AI &amp; Data Science</text>
+  <text x="72" y="1140" font-size="22" fill="#f2efe9" fill-opacity="0.45">Andhra Pradesh, India</text>
+
+  <g transform="translate(660 1124)">
+    <circle cx="0" cy="0" r="8" fill="#2f3bff" />
+    <text x="22" y="6" font-size="18" fill="#f2efe9" fill-opacity="0.7">Open to work</text>
+  </g>
+</svg>

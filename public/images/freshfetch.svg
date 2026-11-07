@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="FreshFetch mobile food ordering interface">
+  <defs>
+    <linearGradient id="ffHero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8a5b" />
+      <stop offset="1" stop-color="#e8502a" />
+    </linearGradient>
+    <filter id="ffBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="70" />
+    </filter>
+    <filter id="ffShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#7a3a1e" flood-opacity="0.16" />
+    </filter>
+    <style>
+      text { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#f8ecdf" />
+  <circle cx="1290" cy="180" r="300" fill="#ffd2b4" opacity="0.85" filter="url(#ffBlur)" />
+  <circle cx="330" cy="900" r="280" fill="#ffdcc2" opacity="0.7" filter="url(#ffBlur)" />
+
+  <!-- Phone -->
+  <g transform="translate(300 150)" filter="url(#ffShadow)">
+    <rect width="360" height="700" rx="52" fill="#fffdfa" />
+    <rect x="1" y="1" width="358" height="698" rx="51" fill="none" stroke="#ecdccd" stroke-width="2" />
+    <rect x="140" y="16" width="80" height="10" rx="5" fill="#eee0d2" />
+
+    <text x="28" y="68" font-size="19" font-weight="700" fill="#1b1712">FreshFetch</text>
+    <text x="28" y="88" font-size="11" fill="#a2937f">Deliver to · Andhra Pradesh</text>
+
+    <rect x="24" y="102" width="312" height="44" rx="22" fill="#f6ece1" />
+    <circle cx="48" cy="124" r="7" fill="none" stroke="#bbaa97" stroke-width="2" />
+    <text x="66" y="128" font-size="12" fill="#b0a08c">Search biryani, paneer, dosa</text>
+
+    <rect x="24" y="164" width="312" height="150" rx="22" fill="url(#ffHero)" />
+    <circle cx="284" cy="248" r="46" fill="#ffffff" opacity="0.16" />
+    <circle cx="314" cy="200" r="24" fill="#ffffff" opacity="0.22" />
+    <text x="46" y="212" font-size="21" font-weight="700" fill="#fff8f2">30 min delivery</text>
+    <text x="46" y="234" font-size="12" fill="#ffe6d8">Fresh from the kitchen</text>
+    <rect x="46" y="254" width="98" height="28" rx="14" fill="#fffdfa" />
+    <text x="63" y="272" font-size="11" font-weight="600" fill="#e8502a">Order now</text>
+
+    <text x="24" y="350" font-size="13" font-weight="700" fill="#1b1712">Categories</text>
+    <g fill="#fffdfa" stroke="#f0e0d1" stroke-width="1.5">
+      <rect x="24" y="364" width="96" height="52" rx="16" />
+      <rect x="132" y="364" width="96" height="52" rx="16" />
+      <rect x="240" y="364" width="96" height="52" rx="16" />
+    </g>
+    <circle cx="48" cy="390" r="9" fill="#ffd9c3" />
+    <circle cx="156" cy="390" r="9" fill="#f5d7a8" />
+    <circle cx="264" cy="390" r="9" fill="#cfe4cd" />
+
+    <text x="24" y="452" font-size="13" font-weight="700" fill="#1b1712">Popular near you</text>
+    <g fill="#fffdfa" stroke="#f0e0d1" stroke-width="1.5">
+      <rect x="24" y="466" width="148" height="196" rx="18" />
+      <rect x="188" y="466" width="148" height="196" rx="18" />
+    </g>
+    <rect x="24" y="466" width="148" height="104" rx="18" fill="#ffe0cb" />
+    <rect x="188" y="466" width="148" height="104" rx="18" fill="#ffe9d2" />
+    <text x="40" y="598" font-size="11" font-weight="600" fill="#1b1712">Veg bowl</text>
+    <text x="40" y="616" font-size="10" fill="#a2937f">Rs 249 · 4.6</text>
+    <text x="204" y="598" font-size="11" font-weight="600" fill="#1b1712">Biryani</text>
+    <text x="204" y="616" font-size="10" fill="#a2937f">Rs 199 · 4.8</text>
+    <g fill="#1b1712">
+      <rect x="122" y="632" width="42" height="18" rx="9" />
+      <rect x="286" y="632" width="42" height="18" rx="9" />
+    </g>
+
+    <rect x="24" y="676" width="312" height="0" fill="none" />
+  </g>
+
+  <!-- Bottom nav pill -->
+  <g transform="translate(300 838)" filter="url(#ffShadow)">
+    <rect width="360" height="0" fill="none" />
+  </g>
+
+  <!-- Order card -->
+  <g transform="translate(730 250)" filter="url(#ffShadow)">
+    <rect width="392" height="160" rx="26" fill="#fffdfa" stroke="#f0e0d1" stroke-width="1.5" />
+    <circle cx="50" cy="52" r="22" fill="#e2f1e0" />
+    <path d="M41 52 L47 58 L59 45" fill="none" stroke="#4c8a4a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="86" y="47" font-size="16" font-weight="600" fill="#1b1712">Order confirmed</text>
+    <text x="86" y="68" font-size="12" fill="#a2937f">Arriving in 24 minutes</text>
+    <rect x="30" y="108" width="332" height="8" rx="4" fill="#f2e6d8" />
+    <rect x="30" y="108" width="196" height="8" rx="4" fill="url(#ffHero)" />
+    <text x="30" y="142" font-size="11" fill="#a2937f">Preparing your order</text>
+  </g>
+
+  <!-- Menu card -->
+  <g transform="translate(820 470)" filter="url(#ffShadow)">
+    <rect width="300" height="240" rx="26" fill="#fffdfa" stroke="#f0e0d1" stroke-width="1.5" />
+    <circle cx="62" cy="72" r="40" fill="#ffe0cb" />
+    <circle cx="62" cy="72" r="26" fill="#f7c5a2" />
+    <circle cx="62" cy="72" r="12" fill="#e8502a" opacity="0.6" />
+    <text x="118" y="60" font-size="15" font-weight="600" fill="#1b1712">Buddha bowl</text>
+    <text x="118" y="82" font-size="12" fill="#a2937f">Greens · quinoa · egg</text>
+    <text x="118" y="104" font-size="13" font-weight="600" fill="#e8502a">Rs 249</text>
+    <rect x="30" y="150" width="240" height="1.5" fill="#f2e6d8" />
+    <text x="30" y="182" font-size="11" fill="#a2937f">Free delivery over Rs 199</text>
+    <rect x="30" y="198" width="92" height="26" rx="13" fill="#1b1712" />
+    <text x="48" y="215" font-size="11" fill="#f8ecdf">Add to cart</text>
+  </g>
+
+  <!-- Rating pill -->
+  <g transform="translate(1178 700)" filter="url(#ffShadow)">
+    <rect width="160" height="58" rx="29" fill="#1b1712" />
+    <text x="26" y="36" font-size="17" font-weight="600" fill="#f8ecdf">4.8 ★</text>
+    <text x="86" y="27" font-size="9" fill="#c8b7a4">2,400+</text>
+    <text x="86" y="40" font-size="9" fill="#c8b7a4">deliveries</text>
+  </g>
+</svg>
